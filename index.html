@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+    <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <button class='js-start progress'>Start Quiz!</button>
+  <div class="question q1">
+   <h1>1. What Color is the Sky?</h1>
+    <ul>
+      <li class="original correct1">A) Blue</li>  
+      <li class="original wrong1">B) Green</li>
+      <li class="original wrong1">C) Yellow</li>
+      <li class="original wrong1">D) Rainbow</li>
+     </ul>
+  </div>
+   <div class="response-status1">
+     <p class="response-status1 right-a1">"Correct!"</p>
+     <button class='response-status1 right-a1 next1 progress'>Next</button>
+     <p class="response-status1 wrong-a1">"Wrong, try again!"</p>
+   </div>
+  <div class="question q2">
+   <h1>2. Why is grass green?</h1>
+     <ul>
+      <li class="original wrong2">A) Magic</li>  
+      <li class="original wrong2">B) Photosynthesis(?)</li>
+      <li class="original correct2">C) I don't know </li>
+      <li class="original wrong2">D) Why not?</li>
+     </ul>
+   </div>
+   <div class="response-status2">
+     <p class="response-status2 right-a2">"Correct!"</p>
+     <button class='response-status2 right-a2 next2 progress'>Next</button>
+     <p class="response-status2 wrong-a2">"Wrong, try again!"</p>
+   </div>
+   <div class="question q3">
+   <h1>3. Why did the chicken cross the road?</h1>
+     <ul>
+      <li class="original wrong3">A) To impress a chick</li>  
+      <li class="original correct3">B) To get to the other side</li>
+      <li class="original wrong3">C) To prove he wasn't chicken</li>
+      <li class="original wrong3">D) None of the above</li>
+     </ul>
+   </div>
+   <div class="response-status3">
+     <p class="response-status3 right-a3">"Correct!"</p>
+     <button class='response-status3 right-a3 next3 progress'>Next</button>
+     <p class="response-status3 wrong-a3">"Wrong, try again!"</p>
+   </div>
+   <div class="question q4">
+   <h1>4. Who wrote "Rebel Rebel"?</h1>
+     <ul>
+      <li class="original wrong4">A) Led Zeppelin</li>  
+      <li class="original correct4">B) David Bowie</li>
+      <li class="original wrong4">C) Janet Jackson</li>
+      <li class="original wrong4">D) Larry King</li>
+     </ul>
+   </div>
+   <div class="response-status4">
+     <p class="response-status4 right-a4">"Correct!"</p>
+     <button class='response-status4 right-a4 next4 progress'>Next</button>
+     <p class="response-status4 wrong-a4">"Wrong, try again!"</p>
+   </div>
+   <div class="question q5">
+   <h1>5. Who is the current US President?</h1>
+     <ul>
+      <li class="original wrong5">A) George W. Bush</li>  
+      <li class="original wrong5">B) Hillary Clinton</li>
+      <li class="original wrong5">C) Donald Trump</li>
+      <li class="original correct5">D) Not my president</li>
+     </ul>
+   </div>
+   <div class="response-status5">
+     <p class="response-status5 right-a5">"Correct!"</p>
+     <h1 class='response-status5 right-a5 next5'>Quiz Complete</h1>
+     <p class="response-status5 wrong-a5">"Wrong, try again!"</p>
+   </div>
+   <h3 class="js-progress-bar"><span class="js-click-counter">0</span> of 5</h3>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
